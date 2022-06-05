@@ -192,7 +192,7 @@ modalOpenBtn.addEventListener('click', () => {
 
 
 
-form.addEventListener('submit', e => {
+submit.addEventListener('submit', e => {
     e.preventDefault();
     try {
       console.log(email.value);
@@ -208,11 +208,11 @@ form.addEventListener('submit', e => {
   function validateEmail(){
    
     if(!email.value.includes('@') || !emailInput.value.includes('.')){
-      emailInput.classList.add('has-error');
-      emailInput.parentNode.querySelector('.error-message').innerText = 'Invalid email';
+      email.classList.add('has-error');
+      email.parentNode.querySelector('.error-message').innerText = 'Invalid email';
       return false;
     }
-    emailInput.classList.remove('has-error');
-    emailInput.parentNode.querySelector('.error-message').innerText = '';
+    email.classList.remove('has-error');
+    email.parentNode.querySelector('.error-message').innerText = '';
     return true;
   }
