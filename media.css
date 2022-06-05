@@ -1,0 +1,302 @@
+@media(max-width:1024px) {
+	.container {
+		grid: auto;
+        height: auto;
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+        height: 100%;
+	}
+      /* first page */
+      .gridpart {
+        margin-top: 50px;
+  
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .leftgrid{
+          display: none;
+      }
+      .rightgrid {
+        display: none;
+      }
+      .infogrid{
+          display: flex;
+          justify-content: center;
+      }
+      .information .Iam{
+          display: none;
+      }
+      .information .profession{
+        display: none;
+    }
+      .logos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .logos a{
+        align-items: center;
+        gap: 0px;
+      }
+      .myBiography{
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+      }  
+      .myinformation{
+          align-items: center;
+      }
+      
+      .myinformation p{
+       display: none;
+      }
+      .myinformation button {
+        padding: 15px;
+        font-size: 10px;
+      }   
+      .profile-photo {
+        max-width: 150px;
+        max-height: 300px;
+        margin-right: 10px;
+      }   
+
+    
+      /* progress bar */
+      .myprogress{
+        margin: 20px;
+        padding-left: 70px;
+      }
+        .bottoncontactdiv {
+            height: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 5px;
+            background-color: rgb(45, 27, 181);
+            width: 100%;
+            padding: 0;
+        }
+        .circleDiv {
+            display: flex;
+            text-align: center;
+        }
+        .bottoncontactdiv .circleDiv a {
+            align-items: center;
+            margin-top: 100px;
+            font-size: 30px;
+            max-width:30px;
+            max-height: 30px;
+        }
+        .bottoncontactdiv .circleDot {
+            height: max-content;
+            width: max-content;
+            padding: 5px;
+        }
+        .bottoncontactdiv .circleDot a {
+            align-items: center;
+            margin-top: 100px;
+            font-size: 30px;
+            width: max-content;
+            height: max-content;
+        }
+        .bottoncontactdiv h4 {
+        display: none;
+        }
+        .gridsection {
+            justify-content: center;
+        }
+        .serviceDiv {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .servicefirstside{
+            max-width: 200px;
+            max-height: 280px;
+        }
+        .anotherside {
+            max-width: 200px;
+            max-height: 280px;   
+        }
+        .projectoffers{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #sidebar{
+            width: 400px;
+        }
+        .projectnames{
+            padding-top: 20px;
+           display: flex;
+           flex-wrap: wrap;
+        }
+        .articledescription p{
+            display: none;
+        }
+        .articledescription h5 {
+            font-size: 20px;
+        }
+        .articleimagepart img{
+            width: 400px;
+            height: 290px;
+        }
+        .mypartners{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .contactdiv {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }   
+        textarea{
+            width: 590px;
+        }
+        input[type=text], textarea {
+            width: 200px;
+        }  
+        input[type=email] {
+        width: 200px;
+        }
+    }
+
+    @media(max-width:769px) {
+        .container {
+            grid: auto;
+            height: auto;
+            align-items: center;
+            margin-right: 40px;
+            margin-left: 40px;
+            width: 100%;
+            height: 100%;
+            max-width: 768px;
+
+        }
+        .myinformation h2{
+            display: none;
+        }
+        .myinformation p{
+            display: none;
+        }
+        .myinformation .hireme{
+            display: none;
+        }
+        .profile-photo {
+            max-width: 400px;
+            max-height: 500px;
+            margin-right: 10px;
+        }   
+        .bottoncontactdiv{
+            margin: 0 px;
+        }
+        .bottoncontactdiv .phone, .addres, .mail{
+            display: none;
+        }
+        .servicefirstside{
+            max-width: 180px;
+            max-height: 260px;
+        }
+        .anotherside {
+            max-width: 180px;
+            max-height: 260px;   
+        }
+        #sidebar{
+            width: 400px;
+        }
+        .projectnames{
+            padding-top: 20px;
+           display: flex;
+           flex-wrap: wrap;
+        }
+        .articlepart{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .rosateamcontainer{
+            width: 100%;
+        }
+        .articleimagepart img{
+            width: 250px;
+            height: 190px;
+        }
+        textarea{
+            width: 490px;
+        }
+        input[type=text], textarea {
+            width: 160px;
+        }  
+        input[type=email] {
+        width: 180px;
+        }
+    }
+
+    @media(max-width:576px) {
+        .container {
+            width: 100%;
+            height: 100%;
+            max-width: 576px;
+
+        }
+    
+        .gridpart{
+            display: none;
+        }
+        .myinformation h2{
+            display: block;
+        }
+
+        .my-progress{
+            padding-top: 40px;
+        }
+
+        .bottoncontactdiv{
+            width: 300px;
+            align-items: center;
+            /* margin-right: 50px; */
+
+        
+        }
+        .personRecommendations p{
+            display: none;
+        }
+        .bottoncontactdiv .circleDiv a {
+            font-size: 15px;
+            max-width:20px;
+            max-height: 20px;
+        }
+        .datearticle span{
+            display: none;
+        }
+        .footerlastpart{
+            height: 200px;
+            width: 200px;
+            background-color: transparent;
+        }
+        .footerdescription{
+            display: none;
+        }
+        .licenses{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .licenses p {
+            padding-top: 10px;
+            font-size: 8px;
+            height: 40px;
+        }
+        .articledescription h5 {
+            font-size: 10px;
+        }
+        .footertitle{
+            display: none;
+        }
+        .socialnetwerks a {
+            padding-top: 20px;
+            gap: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+          }
+    }
